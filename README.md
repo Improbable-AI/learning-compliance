@@ -24,7 +24,7 @@ This repository provides an implementation of the paper:
       <br>
       <em>International Conference on Robotics and Automation</em>, 2024
       <br>
-      <a href="">paper</a> /
+      <a href="https://arxiv.org/abs/2405.01402">paper</a> /
       <a href="https://tif-twirl-13.github.io/learning-compliance.html" target="_blank">project page</a>
     <br>
 </td>
@@ -112,7 +112,7 @@ environments correctly. To train an agent, run `train.py`. To evaluate a trained
 
 ### Training and Logging <a name="training"></a>
 
-To train the Go1 controller from [Walk these Ways](https://sites.google.com/view/gait-conditioned-rl/), run: 
+To train the compliant whole-body controller for B1+Z1, run: 
 
 ```bash
 python scripts/train.py
